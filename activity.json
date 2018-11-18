@@ -1,0 +1,28 @@
+{
+    "name": "flogotimestamp",
+    "type": "flogo:activity",
+    "ref": "github.com/abasse/flogotimestamp",
+    "version": "0.0.1",
+    "title": "Timestamp",
+    "description": "Date to UNIX timestamp",
+    "homepage": "https://github.com/abasse/flogotimestamp",
+      "inputs":[
+        {
+          "name": "inputdate",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "dateformat",
+          "type": "string",
+          "required": false
+        }
+      ],
+      "outputs": [
+         {
+            "name": "timestamp",
+            "type": "integer"
+          }
+      ]
+  }
+  
